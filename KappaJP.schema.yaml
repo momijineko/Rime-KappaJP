@@ -61,7 +61,7 @@ schema:
     右Shift進行仮名變換
     四碼自動上屏
     分号二重、z 鍵三重、空格上屏
-    
+ 
   name: "河童五筆"
   schema_id: KappaJP
   version: 2018.3.13.v1.7.custom.1148821450
