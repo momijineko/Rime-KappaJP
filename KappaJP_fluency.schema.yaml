@@ -92,4 +92,4 @@ key_binder:
     #- { accept: Tab, send: Page_Down, when: composing}
  
 recognizer:
-  import_preset: default
+  import_preset: default 
