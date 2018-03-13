@@ -1,5 +1,4 @@
-# Rime-KappaJP
-Rime河童日本語五筆入力
+#Rime河童日本語五筆入力
 
 將Rime文件夾內的文檔直接複製入RIME用戶文件夾部署即可。
 
