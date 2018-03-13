@@ -1,0 +1,16 @@
+{
+  "name": "Hiragana to Katakana",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "ocd",
+      "file": "hirakata.ocd"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "ocd",
+      "file": "hirakata.ocd"
+    }
+  }]
+}
