@@ -25,7 +25,7 @@ switches:
     states: [ 半角, 全角 ]
   - name: ascii_punct
     states: [ ，。, ，． ]
-	
+
 engine:
   processors:
     - ascii_composer
@@ -54,7 +54,7 @@ speller:
   #max_code_length: 4
   #auto_select: true
   #auto_select_unique_candidate: true
-  
+
 translator:
   dictionary: KappaJP_express_fluency
   enable_charset_filter: true
