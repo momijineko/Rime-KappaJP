@@ -90,6 +90,6 @@ key_binder:
     #- { accept: ISO_Left_Tab, send: Page_Up, when: composing}
     #- { accept: "Shift+Tab", send: Page_Up, when: composing}
     #- { accept: Tab, send: Page_Down, when: composing}
-
+ 
 recognizer:
   import_preset: default
