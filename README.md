@@ -11,7 +11,7 @@
 ### 本方案使用 OpenCC 進行平假名/片假名轉換，使用前請將 hirakata.ocd 和 hira2kata.json 兩個文件置於 opencc 文件夾中。  
 
 需要禁用default.yaml中的
-    #- {accept: comma, send: Page_Up, when: paging}  
+    #- {accept: comma, send: Page_Up, when: paging}    
     #- {accept: period, send: Page_Down, when: has_menu}  
 
 ### 本方案一級簡碼較之原版河童五筆有所改動。請自行查看「一級簡碼表.txt」。  
