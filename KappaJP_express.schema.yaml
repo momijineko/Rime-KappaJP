@@ -1,0 +1,95 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: KappaJP_express
+  name: 河童五筆·連打
+  version: "2018.3.13.v1.7"
+  author:
+    - 发明人　王永民
+    - 零尾河童 <sanbikappa@qq.com>
+    - Rime schema by 紅葉猫 <momijineko@foxmail.com>
+  description: |
+    河童日本語五筆入力方案·連打錄入！
+    碼表源自 零尾河童
+    敲 z 鍵鍵入符號
+    四碼假名組加打 k 鍵完成平假名轉換
+    以分號或單引號分詞、標點或空格上屏
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ かな, 英数 ]
+  - name: full_shape
+    reset: 1
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ ，。, ，． ]
+	
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - matcher
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    #- echo_translator
+    - punct_translator
+    - table_translator
+
+speller:
+  delimiter: " ;'"
+  #开启delimiter分号连打
+  #开启以下选项四码自动上屏，不可同时开启
+  #max_code_length: 4
+  #auto_select: true
+  #auto_select_unique_candidate: true
+  
+translator:
+  dictionary: KappaJP_express_fluency
+  enable_charset_filter: true
+  enable_user_dict: false
+  enable_sentence: true
+  #↑连打
+  enable_encoder: true
+  encode_commit_history: false
+  enable_completion: true
+  #編码予測
+  #enable_user_dict:true
+  #用户词典和字频，暫不可用
+  max_phrase_length: 4
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+
+punctuator:
+  import_preset: default
+  full_shape:
+    ',' : [、,，]
+  half_shape:
+    ',' : [、,，]
+
+key_binder:
+  import_preset: default
+  #bindings:
+    #- { when: has_menu, accept: semicolon, send: 2 }
+    #- { when: has_menu, accept: apostrophe, send: 3 }
+    #自動上屏模式須開启
+    #- {accept: "Shift+space", toggle: full_shape, when: always}
+    #- {accept: minus, send: Page_Up, when: has_menu}
+    #- {accept: equal, send: Page_Down, when: has_menu}
+    #- {accept: ISO_Left_Tab, send: Page_Up, when: composing}
+    #- {accept: "Shift+Tab", send: Page_Up, when: composing}
+    #- {accept: Tab, send: Page_Down, when: composing}
+
+recognizer:
+  import_preset: default

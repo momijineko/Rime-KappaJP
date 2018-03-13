@@ -1,0 +1,36 @@
+# Rime dictionary
+# encoding: utf-8
+# Original table author
+# 修改 紅葉猫
+
+---
+name: KappaJP.kanji
+version: "2018.3.13.v1.7"
+sort: original
+use_preset_vocabulary: false
+max_phrase_length: 14
+encoder:
+  exclude_patterns:
+    - "^z.*$"
+  rules:
+    - length_equal: 2
+      formula: "AaAbZaZb"
+    - length_equal: 3
+      formula: "AaBaZaZb"
+    - length_in_range: [4, 14]
+      formula: "AaBaCaZa"
+...
+
+
+#拡張漢字
+敎	qdbt
+邈	eerp
+儛	wrlh
+洊	idhb
+沴	iwet
+戢	obnt
+煒	onhh
+賷	fkkm
+摭	rya
+摭	ryao
+叵	akd

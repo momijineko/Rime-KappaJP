@@ -1,0 +1,37 @@
+# KappaJP.custom.yaml
+
+patch: 
+  "key_binder/bindings":
+    #- { accept: Return, send: Escape, when: composing }
+    - { when: has_menu, accept: semicolon, send: 2 }
+    #- { when: has_menu, accept: Control+Control_L, send: 2 }
+    - { when: has_menu, accept: z, send: 3 }
+    #自動上屏模式須開启
+    - { accept: "Shift+space", toggle: full_shape, when: always }
+    - { accept: "Shift+Shift_R", toggle: kata, when: always }
+    - { accept: minus, send: Page_Up, when: has_menu }
+    - { accept: equal, send: Page_Down, when: has_menu }
+    - { accept: ISO_Left_Tab, send: Page_Up, when: composing }
+    - { accept: "Shift+Tab", send: Page_Up, when: composing }
+    - { accept: Tab, send: Page_Down, when: composing }
+    - { accept: KP_0, send: 0, when: always }
+    - { accept: KP_1, send: 1, when: always }
+    - { accept: KP_2, send: 2, when: always }
+    - { accept: KP_3, send: 3, when: always }
+    - { accept: KP_4, send: 4, when: always }
+    - { accept: KP_5, send: 5, when: always }
+    - { accept: KP_6, send: 6, when: always }
+    - { accept: KP_7, send: 7, when: always }
+    - { accept: KP_8, send: 8, when: always }
+    - { accept: KP_9, send: 9, when: always }
+    - { accept: KP_Multiply, send: "*", when: always }
+    #*　ｋｅｙｃｏｄｅ１０６
+    - { accept: KP_Add, send: "+", when: always }
+    #+　ｋｅｙｃｏｄｅ１０７
+    - { accept: KP_Subtract, send: "-", when: always }
+    #-　ｋｅｙｃｏｄｅ１０９
+    - { accept: KP_Decimal, send: period, when: always }
+    #.　ｋｅｙｃｏｄｅ１１０　１９０
+    - { accept: KP_Divide, send: "/", when: always }
+    #/　ｋｅｙｃｏｄｅ１１１
+    - { accept: Control+Control_R, toggle: ascii_punct, when: always }

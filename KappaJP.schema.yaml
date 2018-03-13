@@ -1,0 +1,100 @@
+ascii_composer:
+  switch_key:
+    Shift_L: inline_ascii
+    Shift_R: noop
+customization: 1148821450
+engine:
+  filters:
+    - simplifier@kata
+    - uniquifier
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - matcher
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    #- echo_translator
+    - punct_translator
+    - table_translator
+key_binder:
+  bindings:
+    - {accept: semicolon, send: 3, when: has_menu}
+    - {accept: apostrophe, send: 2, when: has_menu}
+    - {accept: "Shift+space", toggle: full_shape, when: always}
+    - {accept: minus, send: Page_Up, when: has_menu}
+    - {accept: equal, send: Page_Down, when: has_menu}
+    - {accept: ISO_Left_Tab, send: Page_Up, when: composing}
+    - {accept: "Shift+Tab", send: Page_Up, when: composing}
+    - {accept: Tab, send: Page_Down, when: composing}
+  import_preset: default
+kata:
+  option_name: kata
+  opencc_config: hira2kata.json
+  tags: [ abc ]
+punctuator:
+  full_shape:
+    ",": ["、", "，"]
+  half_shape:
+    ",": ["、", "，"]
+  import_preset: default
+recognizer:
+  import_preset: default
+schema:
+  author:
+    - "发明人　王永民"
+    - "零尾河童 <sanbikappa@qq.com>"
+    - "Rime schema by 紅葉猫 <momijineko@foxmail.com>"
+  description: |
+    河童日本語五筆入力方案
+    碼表源自 零尾河童
+    敲 z 鍵鍵入符號
+    右Shift進行仮名變換
+    四碼自動上屏
+    分号二重、z 鍵三重、空格上屏
+    
+  name: "河童五筆"
+  schema_id: KappaJP
+  version: 2018.3.13.v1.7.custom.1148821450
+speller:
+  max_code_length: 4
+  auto_select: true
+  auto_select_unique_candidate: true
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: ["かな", "英数"]
+  - name: kata
+    reset: 0
+    states: [ ひら, カタ ]
+  - name: full_shape
+    reset: 1
+    states: ["半角", "全角"]
+  - name: ascii_punct
+    states: ["，。", "，．"]
+translator:
+  dictionary: KappaJP
+  enable_charset_filter: true
+  enable_user_dict: false
+  enable_sentence: false
+  enable_encoder: true
+  encode_commit_history: false
+  max_phrase_length: 4
+  enable_completion: true
+  preedit_format:
+    #- xform/^([a-z]*)$/$1｜\U$1\E/ 
+    #- "xlit|abcdefghijklmnopqrstuvwxyz|工子又大月土王目水日口田山已火之金白木禾立女人纟言符|"
+  comment_format:
+    #- "xlit|abcdefghijklmnopqrstuvwxyz~|工子又大月土王目水日口田山已火之金白木禾立女人纟言符～|"
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+    - "^yyy.*$"
