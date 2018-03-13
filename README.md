@@ -10,7 +10,7 @@
 ### 本方案借用了Rime同文堂內其弦有餘「1727246457」所製作的「スイフトカナ(Swift Kana) 快速假名輸入 V1.4」的OpenCC部分，特此聲明。  
 ### 本方案使用 OpenCC 進行平假名/片假名轉換，使用前請將 hirakata.ocd 和 hira2kata.json 兩個文件置於 opencc 文件夾中。  
 
-需要禁用default.yaml中的
+需要禁用default.yaml中的  
     #- {accept: comma, send: Page_Up, when: paging}    
     #- {accept: period, send: Page_Down, when: has_menu}  
 
