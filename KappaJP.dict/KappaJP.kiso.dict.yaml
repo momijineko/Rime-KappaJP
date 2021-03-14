@@ -6,7 +6,7 @@
 
 ---
 name: KappaJP.kiso
-version: "2018.4.1.v1.8"
+version: "2021.3.14.v1.8.1"
 sort: by_weight
 use_preset_vocabulary: false
 max_phrase_length: 14

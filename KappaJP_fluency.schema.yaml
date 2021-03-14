@@ -4,7 +4,7 @@
 schema:
   schema_id: KappaJP_fluency
   name: 河童五筆·語句流
-  version: "2018.4.1.v1.8"
+  version: "2021.3.14.v1.8.1"
   author:
     - 发明人　王永民
     - 零尾河童 <sanbikappa@qq.com>
@@ -19,13 +19,13 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ かな, 英数 ]
+    states: [かな, 英数]
   - name: full_shape
     reset: 1
-    states: [ 半角, 全角 ]
+    states: [半角, 全角]
   - name: ascii_punct
-    states: [ ，。, ，． ]
-	
+    states: [，。, ，．]
+
 engine:
   processors:
     - ascii_composer
@@ -54,7 +54,7 @@ speller:
   #max_code_length: 4
   #auto_select: true
   #auto_select_unique_candidate: true
-  
+
 translator:
   dictionary: KappaJP_exp_flu
   enable_charset_filter: true
@@ -74,22 +74,22 @@ translator:
 punctuator:
   import_preset: default
   full_shape:
-    ',' : [、,，]
+    ",": [、, ，]
   half_shape:
-    ',' : [、,，]
+    ",": [、, ，]
 
 key_binder:
   import_preset: default
   #bindings:
-    #- { when: has_menu, accept: semicolon, send: 3 }
-    #- { when: has_menu, accept: apostrophe, send: 2 }
-    #自動上屏模式須開启
-    #- { when: always, accept: "Shift+space", toggle: full_shape }
-    #- { accept: minus, send: Page_Up, when: has_menu}
-    #- { accept: equal, send: Page_Down, when: has_menu}
-    #- { accept: ISO_Left_Tab, send: Page_Up, when: composing}
-    #- { accept: "Shift+Tab", send: Page_Up, when: composing}
-    #- { accept: Tab, send: Page_Down, when: composing}
+  #- { when: has_menu, accept: semicolon, send: 3 }
+  #- { when: has_menu, accept: apostrophe, send: 2 }
+  #自動上屏模式須開启
+  #- { when: always, accept: "Shift+space", toggle: full_shape }
+  #- { accept: minus, send: Page_Up, when: has_menu}
+  #- { accept: equal, send: Page_Down, when: has_menu}
+  #- { accept: ISO_Left_Tab, send: Page_Up, when: composing}
+  #- { accept: "Shift+Tab", send: Page_Up, when: composing}
+  #- { accept: Tab, send: Page_Down, when: composing}
 
 recognizer:
   import_preset: default

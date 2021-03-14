@@ -6,7 +6,7 @@
 
 ---
 name: KappaJP.kana
-version: "2018.4.1.v1.8"
+version: "2021.3.14.v1.8.1"
 sort: original
 use_preset_vocabulary: false
 max_phrase_length: 14
@@ -20,8 +20,7 @@ encoder:
       formula: "AaBaZaZb"
     - length_in_range: [4, 14]
       formula: "AaBaCaZa"
-...
-
+---
 #拡張仮名
 
 ｧ	lah
