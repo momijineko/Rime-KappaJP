@@ -1,0 +1,18 @@
+# Rime dictionary
+# encoding: utf-8
+# Original table author
+# 修改 紅葉猫
+
+---
+name: KappaJP.user
+version: "2018.4.1.v1.8"
+sort: original
+use_preset_vocabulary: false
+max_phrase_length: 14
+encoder:
+  exclude_patterns:
+    - "^z.*$"
+...
+テスト	tst
+テスト	tsto
+測試	imya

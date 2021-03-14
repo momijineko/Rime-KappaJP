@@ -4,7 +4,7 @@
 schema:
   schema_id: KappaJP_express
   name: 河童五筆·連打
-  version: "2018.3.13.v1.7"
+  version: "2018.4.1.v1.8"
   author:
     - 发明人　王永民
     - 零尾河童 <sanbikappa@qq.com>
@@ -25,7 +25,7 @@ switches:
     states: [ 半角, 全角 ]
   - name: ascii_punct
     states: [ ，。, ，． ]
-
+	
 engine:
   processors:
     - ascii_composer
@@ -48,7 +48,21 @@ engine:
     - table_translator
 
 speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " ;'"
+  algebra:
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([zcs]h).+$/$1/
+    - derive/^([nl])ue$/$1ve/
+    - derive/^([jqxy])u/$1v/
+    - derive/un$/uen/
+    - derive/ui$/uei/
+    - derive/iu$/iou/
+    - derive/([aeiou])ng$/$1gn/
+    - derive/([dtngkhrzcs])o(u|ng)$/$1o/
+    - derive/ong$/on/
+    - derive/ao$/oa/
+    - derive/([iu])a(o|ng?)$/a$1$2/
   #开启delimiter分号连打
   #开启以下选项四码自动上屏，不可同时开启
   #max_code_length: 4
@@ -56,7 +70,9 @@ speller:
   #auto_select_unique_candidate: true
   
 translator:
-  dictionary: KappaJP_express_fluency
+  dictionary: KappaJP_exp_flu
+  enable_completion: false 
+  #逐漸提示
   enable_charset_filter: true
   enable_user_dict: false
   enable_sentence: true

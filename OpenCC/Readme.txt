@@ -1,0 +1,1 @@
+﻿Android智慧型手機的同文用戶請不要用此文件夾中的ocd文件，需要把hira2kata.json和hirakata.txt放入安卓同文的rime/opencc文件夾中自動生成

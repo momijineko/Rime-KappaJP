@@ -4,7 +4,7 @@
 schema:
   schema_id: KappaJP_fluency
   name: 河童五筆·語句流
-  version: "2018.3.13.v1.7"
+  version: "2018.4.1.v1.8"
   author:
     - 发明人　王永民
     - 零尾河童 <sanbikappa@qq.com>
@@ -25,7 +25,7 @@ switches:
     states: [ 半角, 全角 ]
   - name: ascii_punct
     states: [ ，。, ，． ]
-
+	
 engine:
   processors:
     - ascii_composer
@@ -54,9 +54,9 @@ speller:
   #max_code_length: 4
   #auto_select: true
   #auto_select_unique_candidate: true
-
+  
 translator:
-  dictionary: KappaJP_express_fluency
+  dictionary: KappaJP_exp_flu
   enable_charset_filter: true
   enable_user_dict: false
   enable_sentence: true
@@ -90,6 +90,6 @@ key_binder:
     #- { accept: ISO_Left_Tab, send: Page_Up, when: composing}
     #- { accept: "Shift+Tab", send: Page_Up, when: composing}
     #- { accept: Tab, send: Page_Down, when: composing}
- 
+
 recognizer:
   import_preset: default

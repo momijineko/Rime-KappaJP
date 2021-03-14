@@ -1,4 +1,4 @@
-# KappaJP.custom.yaml 
+# KappaJP.custom.yaml
 
 patch: 
   "key_binder/bindings":
@@ -6,7 +6,7 @@ patch:
     - { when: has_menu, accept: semicolon, send: 2 }
     #- { when: has_menu, accept: Control+Control_L, send: 2 }
     - { when: has_menu, accept: z, send: 3 }
-    #è‡ªå‹•ä¸Šå±æ¨¡å¼é ˆé–‹å¯
+    #×Ô„ÓÉÏÆÁÄ£Ê½íšé_Æô
     - { accept: "Shift+space", toggle: full_shape, when: always }
     - { accept: "Shift+Shift_R", toggle: kata, when: always }
     - { accept: minus, send: Page_Up, when: has_menu }
@@ -25,13 +25,13 @@ patch:
     - { accept: KP_8, send: 8, when: always }
     - { accept: KP_9, send: 9, when: always }
     - { accept: KP_Multiply, send: "*", when: always }
-    #*ã€€ï½‹ï½…ï½™ï½ƒï½ï½„ï½…ï¼‘ï¼ï¼–
+    #*¡¡£ë£å£ù£ã£ï£ä£å£±£°£¶
     - { accept: KP_Add, send: "+", when: always }
-    #+ã€€ï½‹ï½…ï½™ï½ƒï½ï½„ï½…ï¼‘ï¼ï¼—
+    #+¡¡£ë£å£ù£ã£ï£ä£å£±£°£·
     - { accept: KP_Subtract, send: "-", when: always }
-    #-ã€€ï½‹ï½…ï½™ï½ƒï½ï½„ï½…ï¼‘ï¼ï¼™
+    #-¡¡£ë£å£ù£ã£ï£ä£å£±£°£¹
     - { accept: KP_Decimal, send: period, when: always }
-    #.ã€€ï½‹ï½…ï½™ï½ƒï½ï½„ï½…ï¼‘ï¼‘ï¼ã€€ï¼‘ï¼™ï¼
+    #.¡¡£ë£å£ù£ã£ï£ä£å£±£±£°¡¡£±£¹£°
     - { accept: KP_Divide, send: "/", when: always }
-    #/ã€€ï½‹ï½…ï½™ï½ƒï½ï½„ï½…ï¼‘ï¼‘ï¼‘
-    - { accept: Control+Control_R, toggle: ascii_punct, when: always } 
+    #/¡¡£ë£å£ù£ã£ï£ä£å£±£±£±
+    - { accept: Control+Control_R, toggle: ascii_punct, when: always }

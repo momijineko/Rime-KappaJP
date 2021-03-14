@@ -5,14 +5,14 @@
 # 修改 紅葉猫
 
 ---
-name: KappaJP
+name: KappaJP_exp_flu
 version: "2018.4.1.v1.8"
 
 import_tables:
   - KappaJP.dict/KappaJP.kiso #基礎辞書
   - KappaJP.dict/KappaJP.junhira #純平仮単語
   - KappaJP.dict/KappaJP.tango #基礎単語
-  - KappaJP.dict/KappaJP.kata #片仮名
+  - KappaJP.dict/KappaJP.kata_exp_flu #片仮名
   - KappaJP.dict/KappaJP.kanji #拡張漢字
   #- KappaJP.dict/KappaJP.kana #拡張仮名
   #- KappaJP.dict/KappaJP.niji #広辞苑拡張二字単語

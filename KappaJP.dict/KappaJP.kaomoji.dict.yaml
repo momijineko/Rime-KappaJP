@@ -1,0 +1,67 @@
+# Rime dictionary
+# encoding: utf-8
+# Original table author
+# sanbikappa <sanbikappa@qq.com>
+# 修改 紅葉猫
+
+---
+name: KappaJP.kaomoji
+version: "2018.4.1.v1.8"
+sort: by_weight
+use_preset_vocabulary: false
+max_phrase_length: 14
+encoder:
+  exclude_patterns:
+    - "^z.*$"
+  rules:
+    - length_equal: 2
+      formula: "AaAbZaZb"
+    - length_equal: 3
+      formula: "AaBaZaZb"
+    - length_in_range: [4, 14]
+      formula: "AaBaCaZa"
+
+...
+
+#顔文字
+(T_T)	ze	999999
+(〒▽〒)	ze	999998
+(＿TдT)	ze	999997
+_(:з」∠)_	ze	999996
+o(>ω< o)(o >ω<)o	ze	999995
+ε=ε=ε=ε=＼(;´□｀)/	ze	999994
+ヽ(´Д｀ヽ ミ　ノ´Д｀)ノ	ze	999993
+ヾ(≧へ≦)〃	ze	999992
+（＿´Д｀）	ze	999991
+(*/ω＼*)	zq	999999
+(/·ω·)/	zq	999998
+(ノ-^0^)ノｷｬｰｷｬｰ♪	zq	999997
+(ノ´▽｀)ノ	zq	999996
+(￣ 3￣)y-～	zq	999995
+\(·ω·\)	zq	999994
+|≧∇≦)ﾉ |∇≦)ﾉ |≦)ﾉ |ﾉ ﾊﾟｯ *	zq	999993
+|ﾉ |≦)ﾉ |∇≦)ﾉ |≧∇≦)ﾉ 	zq	999992
+┌(┌＾o＾)┐	zq	999991
+ヽ(´▽｀ヽ)	zq	999990
+ヽ(≧Д≦)ノ	zq	999989
+ヾ(＠^▽^＠)ﾉ	zq	999988
+(´･ω･`)	zr	999999
+(◎o◎)	zr	999998
+(シ_ _)シ	zr	999997
+(눈_눈)	zr	999996
+(￣(∞)￣)	zr	999995
+(￣^￣)ゞ	zr	999994
+(￣_￣|||)	zr	999993
+┌(;￣◇￣)┘	zr	999992
+╮（￣▽￣）╭ 	zr	999991
+（¯﹃¯）	zr	999990
+（←_←）	zr	999989
+（→_→）	zr	999988
+（；￣Д￣）	zr	999987
+(╬￣皿￣)凸	zw	999999
+(╯`□′)╯(┴—┴	zw	999998
+(●｀з´●)	zw	999997
+o(-`д´- ｡) 	zw	999996
+ヽ(#`Д´)ﾉ 	zw	999995
+ヽ(ｏ`皿′ｏ)ﾉ	zw	999994
+（╬￣皿￣）=○#（￣#）3￣）	zw	999993

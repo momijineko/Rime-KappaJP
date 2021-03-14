@@ -61,10 +61,10 @@ schema:
     右Shift進行仮名變換
     四碼自動上屏
     分号二重、z 鍵三重、空格上屏
- 
+    
   name: "河童五筆"
   schema_id: KappaJP
-  version: 2018.3.13.v1.7.custom.1148821450
+  version: 2018.4.1.v1.8.custom.1148821450
 speller:
   max_code_length: 4
   auto_select: true
@@ -89,7 +89,7 @@ translator:
   enable_encoder: true
   encode_commit_history: false
   max_phrase_length: 4
-  enable_completion: true
+  enable_completion: false
   preedit_format:
     #- xform/^([a-z]*)$/$1｜\U$1\E/ 
     #- "xlit|abcdefghijklmnopqrstuvwxyz|工子又大月土王目水日口田山已火之金白木禾立女人纟言符|"

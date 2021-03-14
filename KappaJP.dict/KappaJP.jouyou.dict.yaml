@@ -1,0 +1,73 @@
+# Rime dictionary
+# encoding: utf-8
+# Original table author
+# sanbikappa <sanbikappa@qq.com>
+# 修改 紅葉猫
+
+---
+name: KappaJP.jouyou
+version: "2018.4.1.v1.8"
+sort: by_weight
+use_preset_vocabulary: false
+max_phrase_length: 14
+encoder:
+  exclude_patterns:
+    - "^z.*$"
+  rules:
+    - length_equal: 2
+      formula: "AaAbZaZb"
+    - length_equal: 3
+      formula: "AaBaZaZb"
+    - length_in_range: [4, 14]
+      formula: "AaBaCaZa"
+
+...
+
+#常用記号
+
+々	z
+ゝ	z
+ヽ	z
+ヾ	z
+ゝ	zhi	11111111111
+ヽ	zkt	11111111111
+ヾ	zdt	10000000000
+1	za
+2	zs
+3	zd
+4	zf
+5	zg
+6	zh
+7	zj
+8	zk
+9	zl
+0	zm
+！	zqq
+！	zka
+@	zww
+@	zat
+# no comment
+#	zee
+￥	zrr
+%	ztt
+……	zyy
+……	zsl
+&	zuu
+*	zii
+（	zoo
+（	zda
+）	zpp
+）	zdk
+：	zjh
+；	zwv
+“	zax
+“	zdax
+”	zkx
+”	zdkx
+，	zgk
+、	zgb
+。	zqk
+？	zuk
+——	zdh
+_	zgh
+・	zdot
