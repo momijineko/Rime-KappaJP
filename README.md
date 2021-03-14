@@ -8,7 +8,7 @@
 
 ## 使用方法和注意事項
 
-使用前請先閱讀 `河童五筆簡介.md` 。
+使用前請先閱讀 [河童五筆簡介](https://github.com/momijineko/Rime-KappaJP/blob/master/%E6%B2%B3%E7%AB%A5%E4%BA%94%E7%AD%86%E7%B0%A1%E4%BB%8B.md) 。
 
 將本倉庫根目錄下的文檔直接複製入 RIME 用戶文件夾部署即可。
 
@@ -21,6 +21,6 @@
 #- {accept: period, send: Page_Down, when: has_menu}
 ```
 
-本方案一級簡碼較之原版河童五筆有所改動。請查看 `一級簡碼表.md`。
+本方案一級簡碼較之原版河童五筆有所改動。請查看 [一級簡碼表](https://github.com/momijineko/Rime-KappaJP/blob/master/%E4%B8%80%E7%B4%9A%E7%B0%A1%E7%A2%BC%E8%A1%A8.md)。
 
 如有詞序不正確或是不和使用習慣者請自行編輯相關詞庫。
