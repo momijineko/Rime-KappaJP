@@ -14,11 +14,14 @@
 
 本方案使用 OpenCC 進行平假名/片假名轉換，使用前請將 `hirakata.ocd` 和 `hira2kata.json` 兩個文件置於 `opencc` 文件夾中。
 
-使用前可能需禁用 `default.yaml` 中的
+使用前需在 `default.custom.yaml` 中的 patch 分支下添加以下內容。
 
 ```yaml
-#- {accept: comma, send: Page_Up, when: paging}
-#- {accept: period, send: Page_Down, when: has_menu}
+patch:
+  ...
+  "key_binder/bindings":
+    #- {accept: comma, send: Page_Up, when: paging}
+    #- {accept: period, send: Page_Down, when: has_menu}
 ```
 
 本方案一級簡碼較之原版河童五筆有所改動。請查看 [一級簡碼表](https://github.com/momijineko/Rime-KappaJP/blob/master/%E4%B8%80%E7%B4%9A%E7%B0%A1%E7%A2%BC%E8%A1%A8.md)。
