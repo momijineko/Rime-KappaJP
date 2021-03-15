@@ -1,10 +1,10 @@
-# Rime 河童日本語五筆入力方法
+# Rime 河童日本語五筆型入力方法
 
 [English](https://github.com/momijineko/Rime-KappaJP/blob/master/README.md) | 中文
 
 一個基於五筆86的日語輸入方案。
 
-這是一種通過 `漢字直接輸入`<sup>[漢字直接入力 - Wikipedia](https://ja.wikipedia.org/wiki/漢字直接入力)</sup> 方式進行日語輸入的方案
+這是一種通過 `漢字直接輸入`<sup>[漢字直接入力 - Wikipedia](https://ja.wikipedia.org/wiki/漢字直接入力)</sup> 方式進行日語輸入的方案。
 
 ## 聲明
 
