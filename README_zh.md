@@ -1,6 +1,6 @@
 # Rime 河童日本語五筆入力
 
-[English]() | 中文
+[English](https://github.com/momijineko/Rime-KappaJP/blob/master/README.md) | 中文
 
 ## 聲明
 
