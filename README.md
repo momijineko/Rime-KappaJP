@@ -1,6 +1,6 @@
 # Kappa Japanese Wubi Scheme for Rime
 
-English | [中文]()
+English | [中文](https://github.com/momijineko/Rime-KappaJP/blob/master/README_zh.md)
 
 A Japanese input scheme based on Wubi86.
 
