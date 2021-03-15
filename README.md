@@ -1,20 +1,26 @@
-# Rime 河童日本語五筆入力
+# Kappa Japanese Wubi Scheme for Rime
 
-## 聲明
+English | [中文]()
 
-- 本方案原作者爲 [零尾河童](https://github.com/zerobikappa/rime-kappajp86)，本人只是移植到 rime 平臺。
-- 本方案借用了 sgalal 製作的 [rime 訓讀み](https://github.com/sgalal/rime-kunyomi) 方案的 OpenCC 部分。
-- 本方案遵循 MIT License 開源。
+A Japanese input scheme based on Wubi86.
 
-## 使用方法和注意事項
+It’s a input scheme by `Kanji Chokusetsu Nyuryoku`([漢字直接入力 - Wikipedia](https://ja.wikipedia.org/wiki/漢字直接入力)) to input Japanese.
 
-使用前請先閱讀 [Wiki](https://github.com/momijineko/Rime-KappaJP/wiki) 頁面。
+## Declaration
 
-將本倉庫根目錄下的文檔直接複製入 RIME 用戶文件夾部署即可。
+- The original author of this scheme is [零尾河童](https://github.com/zerobikappa/rime-kappajp86), I’m just porting to the Rime input platform.
+- This scheme borrows the OpenCC part of the [rime 訓讀み](https://github.com/sgalal/rime-kunyomi) scheme sgalal made.
+- This scheme follows MIT license.
 
-本方案使用 OpenCC 進行平假名/片假名轉換，使用前請將 `hirakata.ocd` 和 `hira2kata.json` 兩個文件置於 `opencc` 文件夾中。
+## Usage and precautions
 
-使用前需在 `default.custom.yaml` 中的 patch 分支下添加以下內容。
+Please read the [Wiki(only Chinese page now)](https://github.com/momijineko/Rime-KappaJP/wiki) before using it.
+
+Copy the documents under the root directory of the repo into the user folder of RIME for deployment.
+
+Opencc is used in this scheme to convert Hiragana / Katakana. Please put ` hirakata.ocd ` and  ` hira2 kata.json ` in the `opencc` folder before use.
+
+Before using, you need to add the following content under the patch item in `default.custom.yaml`.
 
 ```yaml
 patch:
@@ -24,4 +30,7 @@ patch:
     #- {accept: period, send: Page_Down, when: has_menu}
 ```
 
-歡迎各位大佬共同對本方案的詞庫進行維護和提PR。關於對新詞的收錄，本詞庫將不予收錄死語以及未來可能會變成死語的詞（比如部分NET用語）。
+Welcome everyone to maintain the dictionary of this scheme and  submit PRs to me.
+
+For the inclusion of new words, it will not be included obsolete words([廃語 - Wikipedia](https://ja.wikipedia.org/wiki/廃語)) and words that may obsoleted in the future (such as some internet buzzwords) in this dictionary.
+
