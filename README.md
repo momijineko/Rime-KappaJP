@@ -4,11 +4,11 @@
 
 - 本方案原作者爲 [零尾河童](https://github.com/zerobikappa/rime-kappajp86)，本人只是移植到 rime 平臺。
 - 本方案借用了 sgalal 製作的 [rime 訓讀み](https://github.com/sgalal/rime-kunyomi) 方案的 OpenCC 部分。
-- 本方案遵循 MIT License。
+- 本方案遵循 MIT License 開源。
 
 ## 使用方法和注意事項
 
-使用前請先閱讀 [河童五筆簡介](https://github.com/momijineko/Rime-KappaJP/blob/master/%E6%B2%B3%E7%AB%A5%E4%BA%94%E7%AD%86%E7%B0%A1%E4%BB%8B.md) 。
+使用前請先閱讀 [Wiki](https://github.com/momijineko/Rime-KappaJP/wiki) 頁面。
 
 將本倉庫根目錄下的文檔直接複製入 RIME 用戶文件夾部署即可。
 
