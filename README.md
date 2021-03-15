@@ -1,4 +1,4 @@
-# Kappa Japanese Wubi Scheme for Rime
+# Kappa Japanese Wubi Input Scheme for Rime
 
 English | [中文](https://github.com/momijineko/Rime-KappaJP/blob/master/README_zh.md)
 
