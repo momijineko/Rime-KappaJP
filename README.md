@@ -4,7 +4,7 @@ English | [中文](https://github.com/momijineko/Rime-KappaJP/blob/master/README
 
 A Japanese input scheme based on Wubi86.
 
-It’s a input scheme by `Kanji Chokusetsu Nyuryoku`([漢字直接入力 - Wikipedia](https://ja.wikipedia.org/wiki/漢字直接入力)) to input Japanese.
+It’s a input scheme by `Kanji Chokusetsu Nyuryoku`<sup>[漢字直接入力 - Wikipedia](https://ja.wikipedia.org/wiki/漢字直接入力)</sup> to input Japanese.
 
 ## Declaration
 
@@ -32,5 +32,5 @@ patch:
 
 Welcome everyone to maintain the dictionary of this scheme and  submit PRs to me.
 
-For the inclusion of new words, it will not be included obsolete words([廃語 - Wikipedia](https://ja.wikipedia.org/wiki/廃語)) and words that may obsoleted in the future (such as some internet buzzwords) in this dictionary.
+For the inclusion of new words, it will not be included obsolete words<sup>[廃語 - Wikipedia](https://ja.wikipedia.org/wiki/廃語)</sup> and words that may obsoleted in the future (such as some internet buzzwords) in this dictionary.
 
