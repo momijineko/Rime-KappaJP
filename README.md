@@ -18,7 +18,7 @@ Please read the [Wiki(only Chinese page now)](https://github.com/momijineko/Rime
 
 Copy the documents under the root directory of the repo into the user folder of RIME for deployment.
 
-Opencc is used in this scheme to convert Hiragana / Katakana. Please put ` hirakata.ocd ` and  ` hira2 kata.json ` in the `opencc` folder before use.
+Opencc is used in this scheme to convert Hiragana / Katakana. Please put ` hirakata.ocd ` and  ` hira2kata.json ` in the `opencc` folder before use.
 
 Before using, you need to add the following content under the patch item in `default.custom.yaml`.
 
