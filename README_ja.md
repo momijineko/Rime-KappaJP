@@ -2,11 +2,11 @@
 
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/momijineko/Rime-KappaJP) ![GitHub](https://img.shields.io/github/license/momijineko/Rime-KappaJP)
 
-[English](https://github.com/momijineko/Rime-KappaJP/blob/master/README.md) | [中文](https://github.com/momijineko/Rime-KappaJP/blob/master/README_zh.md) | | 日本語
+[English](https://github.com/momijineko/Rime-KappaJP/blob/master/README.md) | [中文](https://github.com/momijineko/Rime-KappaJP/blob/master/README_zh.md) | 日本語
 
 ## TODO
 
-THIS README NEED TRANSLATE TO JAPANESE.
+THIS README NEEDS TO BE TRANSLATED INTO JAPANESE.
 
 ---
 
