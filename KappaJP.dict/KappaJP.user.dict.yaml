@@ -5,14 +5,14 @@
 
 ---
 name: KappaJP.user
-version: "2018.4.1.v1.8"
+version: "2022.8.16.v1.8.2"
 sort: original
 use_preset_vocabulary: false
 max_phrase_length: 14
 encoder:
   exclude_patterns:
     - "^z.*$"
-...
+---
 テスト	tst
 テスト	tsto
 測試	imya

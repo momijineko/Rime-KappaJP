@@ -6,7 +6,7 @@
 
 ---
 name: KappaJP.kata_exp_flu
-version: "2018.4.1.v1.8"
+version: "2022.8.16.v1.8.2"
 sort: by_weight
 use_preset_vocabulary: false
 max_phrase_length: 14
@@ -21,8 +21,7 @@ encoder:
     - length_in_range: [4, 14]
       formula: "AaBaCaZa"
 
-...
-
+---
 #片仮名
 
 ア	aak	16383
@@ -72,7 +71,7 @@ encoder:
 アザ	aajak	16331
 アジュ	aajck	16286
 アゼ	aajek	16328
-アザ	aajik	16330
+アジ	aajik	16330
 アゾ	aajok	16327
 アズ	aajuk	16329
 アジャ	aajvk	16287
@@ -201,7 +200,7 @@ encoder:
 バザ	bajak	16324
 バジュ	bajck	16279
 バゼ	bajek	16321
-バザ	bajik	16323
+バジ	bajik	16323
 バゾ	bajok	16320
 バズ	bajuk	16322
 バジャ	bajvk	16280
@@ -330,7 +329,7 @@ encoder:
 ビュザ	bcjak	15556
 ビュジュ	bcjck	15511
 ビュゼ	bcjek	15553
-ビュザ	bcjik	15555
+ビュジ	bcjik	15555
 ビュゾ	bcjok	15552
 ビュズ	bcjuk	15554
 ビュジャ	bcjvk	15512
@@ -459,7 +458,7 @@ encoder:
 ベザ	bejak	15940
 ベジュ	bejck	15895
 ベゼ	bejek	15937
-ベザ	bejik	15939
+ベジ	bejik	15939
 ベゾ	bejok	15936
 ベズ	bejuk	15938
 ベジャ	bejvk	15896
@@ -588,7 +587,7 @@ encoder:
 ビザ	bijak	16196
 ビジュ	bijck	16151
 ビゼ	bijek	16193
-ビザ	bijik	16195
+ビジ	bijik	16195
 ビゾ	bijok	16192
 ビズ	bijuk	16194
 ビジャ	bijvk	16152
@@ -717,7 +716,7 @@ encoder:
 ボザ	bojak	15812
 ボジュ	bojck	15767
 ボゼ	bojek	15809
-ボザ	bojik	15811
+ボジ	bojik	15811
 ボゾ	bojok	15808
 ボズ	bojuk	15810
 ボジャ	bojvk	15768
@@ -846,7 +845,7 @@ encoder:
 ブザ	bujak	16068
 ブジュ	bujck	16023
 ブゼ	bujek	16065
-ブザ	bujik	16067
+ブジ	bujik	16067
 ブゾ	bujok	16064
 ブズ	bujuk	16066
 ブジャ	bujvk	16024
@@ -975,7 +974,7 @@ encoder:
 ビャザ	bvjak	15684
 ビャジュ	bvjck	15639
 ビャゼ	bvjek	15681
-ビャザ	bvjik	15683
+ビャジ	bvjik	15683
 ビャゾ	bvjok	15680
 ビャズ	bvjuk	15682
 ビャジャ	bvjvk	15640
@@ -1104,7 +1103,7 @@ encoder:
 ビョザ	bxjak	15428
 ビョジュ	bxjck	15383
 ビョゼ	bxjek	15425
-ビョザ	bxjik	15427
+ビョジ	bxjik	15427
 ビョゾ	bxjok	15424
 ビョズ	bxjuk	15426
 ビョジャ	bxjvk	15384
@@ -1233,7 +1232,7 @@ encoder:
 チュザ	ccjak	16072
 チュジュ	ccjck	16027
 チュゼ	ccjek	16069
-チュザ	ccjik	16071
+チュジ	ccjik	16071
 チュゾ	ccjok	16068
 チュズ	ccjuk	16070
 チュジャ	ccjvk	16028
@@ -1362,7 +1361,7 @@ encoder:
 チザ	cijak	16328
 チジュ	cijck	16283
 チゼ	cijek	16325
-チザ	cijik	16327
+チジ	cijik	16327
 チゾ	cijok	16324
 チズ	cijuk	16326
 チジャ	cijvk	16284
@@ -1491,7 +1490,7 @@ encoder:
 チャザ	cvjak	16200
 チャジュ	cvjck	16155
 チャゼ	cvjek	16197
-チャザ	cvjik	16199
+チャジ	cvjik	16199
 チャゾ	cvjok	16196
 チャズ	cvjuk	16198
 チャジャ	cvjvk	16156
@@ -1620,7 +1619,7 @@ encoder:
 チョザ	cxjak	15944
 チョジュ	cxjck	15899
 チョゼ	cxjek	15941
-チョザ	cxjik	15943
+チョジ	cxjik	15943
 チョゾ	cxjok	15940
 チョズ	cxjuk	15942
 チョジャ	cxjvk	15900
@@ -1749,7 +1748,7 @@ encoder:
 ダザ	dajak	16324
 ダジュ	dajck	16279
 ダゼ	dajek	16321
-ダザ	dajik	16323
+ダジ	dajik	16323
 ダゾ	dajok	16320
 ダズ	dajuk	16322
 ダジャ	dajvk	16280
@@ -1878,7 +1877,7 @@ encoder:
 ヂュザ	dcjak	15556
 ヂュジュ	dcjck	15511
 ヂュゼ	dcjek	15553
-ヂュザ	dcjik	15555
+ヂュジ	dcjik	15555
 ヂュゾ	dcjok	15552
 ヂュズ	dcjuk	15554
 ヂュジャ	dcjvk	15512
@@ -2007,7 +2006,7 @@ encoder:
 デザ	dejak	15940
 デジュ	dejck	15895
 デゼ	dejek	15937
-デザ	dejik	15939
+デジ	dejik	15939
 デゾ	dejok	15936
 デズ	dejuk	15938
 デジャ	dejvk	15896
@@ -2136,7 +2135,7 @@ encoder:
 ヂザ	dijak	16196
 ヂジュ	dijck	16151
 ヂゼ	dijek	16193
-ヂザ	dijik	16195
+ヂジ	dijik	16195
 ヂゾ	dijok	16192
 ヂズ	dijuk	16194
 ヂジャ	dijvk	16152
@@ -2265,7 +2264,7 @@ encoder:
 ドザ	dojak	15812
 ドジュ	dojck	15767
 ドゼ	dojek	15809
-ドザ	dojik	15811
+ドジ	dojik	15811
 ドゾ	dojok	15808
 ドズ	dojuk	15810
 ドジャ	dojvk	15768
@@ -2394,7 +2393,7 @@ encoder:
 ヅザ	dujak	16068
 ヅジュ	dujck	16023
 ヅゼ	dujek	16065
-ヅザ	dujik	16067
+ヅジ	dujik	16067
 ヅゾ	dujok	16064
 ヅズ	dujuk	16066
 ヅジャ	dujvk	16024
@@ -2523,7 +2522,7 @@ encoder:
 ヂャザ	dvjak	15684
 ヂャジュ	dvjck	15639
 ヂャゼ	dvjek	15681
-ヂャザ	dvjik	15683
+ヂャジ	dvjik	15683
 ヂャゾ	dvjok	15680
 ヂャズ	dvjuk	15682
 ヂャジャ	dvjvk	15640
@@ -2652,7 +2651,7 @@ encoder:
 ヂョザ	dxjak	15428
 ヂョジュ	dxjck	15383
 ヂョゼ	dxjek	15425
-ヂョザ	dxjik	15427
+ヂョジ	dxjik	15427
 ヂョゾ	dxjok	15424
 ヂョズ	dxjuk	15426
 ヂョジャ	dxjvk	15384
@@ -2781,7 +2780,7 @@ encoder:
 エザ	eejak	16331
 エジュ	eejck	16286
 エゼ	eejek	16328
-エザ	eejik	16330
+エジ	eejik	16330
 エゾ	eejok	16327
 エズ	eejuk	16329
 エジャ	eejvk	16287
@@ -2910,7 +2909,7 @@ encoder:
 ファザ	fajak	16328
 ファジュ	fajck	16283
 ファゼ	fajek	16325
-ファザ	fajik	16327
+ファジ	fajik	16327
 ファゾ	fajok	16324
 ファズ	fajuk	16326
 ファジャ	fajvk	16284
@@ -3039,7 +3038,7 @@ encoder:
 フェザ	fejak	16072
 フェジュ	fejck	16027
 フェゼ	fejek	16069
-フェザ	fejik	16071
+フェジ	fejik	16071
 フェゾ	fejok	16068
 フェズ	fejuk	16070
 フェジャ	fejvk	16028
@@ -3168,7 +3167,7 @@ encoder:
 フィザ	fijak	16200
 フィジュ	fijck	16155
 フィゼ	fijek	16197
-フィザ	fijik	16199
+フィジ	fijik	16199
 フィゾ	fijok	16196
 フィズ	fijuk	16198
 フィジャ	fijvk	16156
@@ -3297,7 +3296,7 @@ encoder:
 フォザ	fojak	15944
 フォジュ	fojck	15899
 フォゼ	fojek	15941
-フォザ	fojik	15943
+フォジ	fojik	15943
 フォゾ	fojok	15940
 フォズ	fojuk	15942
 フォジャ	fojvk	15900
@@ -3426,7 +3425,7 @@ encoder:
 ガザ	gajak	16324
 ガジュ	gajck	16279
 ガゼ	gajek	16321
-ガザ	gajik	16323
+ガジ	gajik	16323
 ガゾ	gajok	16320
 ガズ	gajuk	16322
 ガジャ	gajvk	16280
@@ -3555,7 +3554,7 @@ encoder:
 ギュザ	gcjak	15556
 ギュジュ	gcjck	15511
 ギュゼ	gcjek	15553
-ギュザ	gcjik	15555
+ギュジ	gcjik	15555
 ギュゾ	gcjok	15552
 ギュズ	gcjuk	15554
 ギュジャ	gcjvk	15512
@@ -3684,7 +3683,7 @@ encoder:
 ゲザ	gejak	15940
 ゲジュ	gejck	15895
 ゲゼ	gejek	15937
-ゲザ	gejik	15939
+ゲジ	gejik	15939
 ゲゾ	gejok	15936
 ゲズ	gejuk	15938
 ゲジャ	gejvk	15896
@@ -3813,7 +3812,7 @@ encoder:
 ギザ	gijak	16196
 ギジュ	gijck	16151
 ギゼ	gijek	16193
-ギザ	gijik	16195
+ギジ	gijik	16195
 ギゾ	gijok	16192
 ギズ	gijuk	16194
 ギジャ	gijvk	16152
@@ -3942,7 +3941,7 @@ encoder:
 ゴザ	gojak	15812
 ゴジュ	gojck	15767
 ゴゼ	gojek	15809
-ゴザ	gojik	15811
+ゴジ	gojik	15811
 ゴゾ	gojok	15808
 ゴズ	gojuk	15810
 ゴジャ	gojvk	15768
@@ -4071,7 +4070,7 @@ encoder:
 グザ	gujak	16068
 グジュ	gujck	16023
 グゼ	gujek	16065
-グザ	gujik	16067
+グジ	gujik	16067
 グゾ	gujok	16064
 グズ	gujuk	16066
 グジャ	gujvk	16024
@@ -4200,7 +4199,7 @@ encoder:
 ギャザ	gvjak	15684
 ギャジュ	gvjck	15639
 ギャゼ	gvjek	15681
-ギャザ	gvjik	15683
+ギャジ	gvjik	15683
 ギャゾ	gvjok	15680
 ギャズ	gvjuk	15682
 ギャジャ	gvjvk	15640
@@ -4329,7 +4328,7 @@ encoder:
 ギョザ	gxjak	15428
 ギョジュ	gxjck	15383
 ギョゼ	gxjek	15425
-ギョザ	gxjik	15427
+ギョジ	gxjik	15427
 ギョゾ	gxjok	15424
 ギョズ	gxjuk	15426
 ギョジャ	gxjvk	15384
@@ -4458,7 +4457,7 @@ encoder:
 ハザ	hajak	16324
 ハジュ	hajck	16279
 ハゼ	hajek	16321
-ハザ	hajik	16323
+ハジ	hajik	16323
 ハゾ	hajok	16320
 ハズ	hajuk	16322
 ハジャ	hajvk	16280
@@ -4587,7 +4586,7 @@ encoder:
 ヒュザ	hcjak	15556
 ヒュジュ	hcjck	15511
 ヒュゼ	hcjek	15553
-ヒュザ	hcjik	15555
+ヒュジ	hcjik	15555
 ヒュゾ	hcjok	15552
 ヒュズ	hcjuk	15554
 ヒュジャ	hcjvk	15512
@@ -4716,7 +4715,7 @@ encoder:
 ヘザ	hejak	15940
 ヘジュ	hejck	15895
 ヘゼ	hejek	15937
-ヘザ	hejik	15939
+ヘジ	hejik	15939
 ヘゾ	hejok	15936
 ヘズ	hejuk	15938
 ヘジャ	hejvk	15896
@@ -4845,7 +4844,7 @@ encoder:
 ヒザ	hijak	16196
 ヒジュ	hijck	16151
 ヒゼ	hijek	16193
-ヒザ	hijik	16195
+ヒジ	hijik	16195
 ヒゾ	hijok	16192
 ヒズ	hijuk	16194
 ヒジャ	hijvk	16152
@@ -4974,7 +4973,7 @@ encoder:
 ホザ	hojak	15812
 ホジュ	hojck	15767
 ホゼ	hojek	15809
-ホザ	hojik	15811
+ホジ	hojik	15811
 ホゾ	hojok	15808
 ホズ	hojuk	15810
 ホジャ	hojvk	15768
@@ -5103,7 +5102,7 @@ encoder:
 フザ	hujak	16068
 フジュ	hujck	16023
 フゼ	hujek	16065
-フザ	hujik	16067
+フジ	hujik	16067
 フゾ	hujok	16064
 フズ	hujuk	16066
 フジャ	hujvk	16024
@@ -5232,7 +5231,7 @@ encoder:
 ヒャザ	hvjak	15684
 ヒャジュ	hvjck	15639
 ヒャゼ	hvjek	15681
-ヒャザ	hvjik	15683
+ヒャジ	hvjik	15683
 ヒャゾ	hvjok	15680
 ヒャズ	hvjuk	15682
 ヒャジャ	hvjvk	15640
@@ -5361,7 +5360,7 @@ encoder:
 ヒョザ	hxjak	15428
 ヒョジュ	hxjck	15383
 ヒョゼ	hxjek	15425
-ヒョザ	hxjik	15427
+ヒョジ	hxjik	15427
 ヒョゾ	hxjok	15424
 ヒョズ	hxjuk	15426
 ヒョジャ	hxjvk	15384
@@ -5490,7 +5489,7 @@ encoder:
 イザ	iijak	16331
 イジュ	iijck	16286
 イゼ	iijek	16328
-イザ	iijik	16330
+イジ	iijik	16330
 イゾ	iijok	16327
 イズ	iijuk	16329
 イジャ	iijvk	16287
@@ -5619,7 +5618,7 @@ encoder:
 ザザ	jajak	16324
 ザジュ	jajck	16279
 ザゼ	jajek	16321
-ザザ	jajik	16323
+ザジ	jajik	16323
 ザゾ	jajok	16320
 ザズ	jajuk	16322
 ザジャ	jajvk	16280
@@ -5748,7 +5747,7 @@ encoder:
 ジュザ	jcjak	15556
 ジュジュ	jcjck	15511
 ジュゼ	jcjek	15553
-ジュザ	jcjik	15555
+ジュジ	jcjik	15555
 ジュゾ	jcjok	15552
 ジュズ	jcjuk	15554
 ジュジャ	jcjvk	15512
@@ -5877,7 +5876,7 @@ encoder:
 ゼザ	jejak	15940
 ゼジュ	jejck	15895
 ゼゼ	jejek	15937
-ゼザ	jejik	15939
+ゼジ	jejik	15939
 ゼゾ	jejok	15936
 ゼズ	jejuk	15938
 ゼジャ	jejvk	15896
@@ -6006,7 +6005,7 @@ encoder:
 ジザ	jijak	16196
 ジジュ	jijck	16151
 ジゼ	jijek	16193
-ジザ	jijik	16195
+ジジ	jijik	16195
 ジゾ	jijok	16192
 ジズ	jijuk	16194
 ジジャ	jijvk	16152
@@ -6135,7 +6134,7 @@ encoder:
 ゾザ	jojak	15812
 ゾジュ	jojck	15767
 ゾゼ	jojek	15809
-ゾザ	jojik	15811
+ゾジ	jojik	15811
 ゾゾ	jojok	15808
 ゾズ	jojuk	15810
 ゾジャ	jojvk	15768
@@ -6264,7 +6263,7 @@ encoder:
 ズザ	jujak	16068
 ズジュ	jujck	16023
 ズゼ	jujek	16065
-ズザ	jujik	16067
+ズジ	jujik	16067
 ズゾ	jujok	16064
 ズズ	jujuk	16066
 ズジャ	jujvk	16024
@@ -6393,7 +6392,7 @@ encoder:
 ジャザ	jvjak	15684
 ジャジュ	jvjck	15639
 ジャゼ	jvjek	15681
-ジャザ	jvjik	15683
+ジャジ	jvjik	15683
 ジャゾ	jvjok	15680
 ジャズ	jvjuk	15682
 ジャジャ	jvjvk	15640
@@ -6522,7 +6521,7 @@ encoder:
 ジョザ	jxjak	15428
 ジョジュ	jxjck	15383
 ジョゼ	jxjek	15425
-ジョザ	jxjik	15427
+ジョジ	jxjik	15427
 ジョゾ	jxjok	15424
 ジョズ	jxjuk	15426
 ジョジャ	jxjvk	15384
@@ -6651,7 +6650,7 @@ encoder:
 カザ	kajak	16324
 カジュ	kajck	16279
 カゼ	kajek	16321
-カザ	kajik	16323
+カジ	kajik	16323
 カゾ	kajok	16320
 カズ	kajuk	16322
 カジャ	kajvk	16280
@@ -6780,7 +6779,7 @@ encoder:
 キュザ	kcjak	15556
 キュジュ	kcjck	15511
 キュゼ	kcjek	15553
-キュザ	kcjik	15555
+キュジ	kcjik	15555
 キュゾ	kcjok	15552
 キュズ	kcjuk	15554
 キュジャ	kcjvk	15512
@@ -6909,7 +6908,7 @@ encoder:
 ケザ	kejak	15940
 ケジュ	kejck	15895
 ケゼ	kejek	15937
-ケザ	kejik	15939
+ケジ	kejik	15939
 ケゾ	kejok	15936
 ケズ	kejuk	15938
 ケジャ	kejvk	15896
@@ -7038,7 +7037,7 @@ encoder:
 キザ	kijak	16196
 キジュ	kijck	16151
 キゼ	kijek	16193
-キザ	kijik	16195
+キジ	kijik	16195
 キゾ	kijok	16192
 キズ	kijuk	16194
 キジャ	kijvk	16152
@@ -7167,7 +7166,7 @@ encoder:
 コザ	kojak	15812
 コジュ	kojck	15767
 コゼ	kojek	15809
-コザ	kojik	15811
+コジ	kojik	15811
 コゾ	kojok	15808
 コズ	kojuk	15810
 コジャ	kojvk	15768
@@ -7296,7 +7295,7 @@ encoder:
 クザ	kujak	16068
 クジュ	kujck	16023
 クゼ	kujek	16065
-クザ	kujik	16067
+クジ	kujik	16067
 クゾ	kujok	16064
 クズ	kujuk	16066
 クジャ	kujvk	16024
@@ -7425,7 +7424,7 @@ encoder:
 キャザ	kvjak	15684
 キャジュ	kvjck	15639
 キャゼ	kvjek	15681
-キャザ	kvjik	15683
+キャジ	kvjik	15683
 キャゾ	kvjok	15680
 キャズ	kvjuk	15682
 キャジャ	kvjvk	15640
@@ -7554,7 +7553,7 @@ encoder:
 キョザ	kxjak	15428
 キョジュ	kxjck	15383
 キョゼ	kxjek	15425
-キョザ	kxjik	15427
+キョジ	kxjik	15427
 キョゾ	kxjok	15424
 キョズ	kxjuk	15426
 キョジャ	kxjvk	15384
@@ -7683,7 +7682,7 @@ encoder:
 ァザ	lajak	16322
 ァジュ	lajck	16277
 ァゼ	lajek	16319
-ァザ	lajik	16321
+ァジ	lajik	16321
 ァゾ	lajok	16318
 ァズ	lajuk	16320
 ァジャ	lajvk	16278
@@ -7812,7 +7811,7 @@ encoder:
 ュザ	lcjak	15426
 ュジュ	lcjck	15381
 ュゼ	lcjek	15423
-ュザ	lcjik	15425
+ュジ	lcjik	15425
 ュゾ	lcjok	15422
 ュズ	lcjuk	15424
 ュジャ	lcjvk	15382
@@ -7941,7 +7940,7 @@ encoder:
 ェザ	lejak	15938
 ェジュ	lejck	15893
 ェゼ	lejek	15935
-ェザ	lejik	15937
+ェジ	lejik	15937
 ェゾ	lejok	15934
 ェズ	lejuk	15936
 ェジャ	lejvk	15894
@@ -8070,7 +8069,7 @@ encoder:
 ーザ	lgjak	15170
 ージュ	lgjck	15125
 ーゼ	lgjek	15167
-ーザ	lgjik	15169
+ージ	lgjik	15169
 ーゾ	lgjok	15166
 ーズ	lgjuk	15168
 ージャ	lgjvk	15126
@@ -8199,7 +8198,7 @@ encoder:
 ィザ	lijak	16194
 ィジュ	lijck	16149
 ィゼ	lijek	16191
-ィザ	lijik	16193
+ィジ	lijik	16193
 ィゾ	lijok	16190
 ィズ	lijuk	16192
 ィジャ	lijvk	16150
@@ -8328,7 +8327,7 @@ encoder:
 ッザ	lljak	15682
 ッジュ	lljck	15637
 ッゼ	lljek	15679
-ッザ	lljik	15681
+ッジ	lljik	15681
 ッゾ	lljok	15678
 ッズ	lljuk	15680
 ッジャ	lljvk	15638
@@ -8457,7 +8456,7 @@ encoder:
 ォザ	lojak	15810
 ォジュ	lojck	15765
 ォゼ	lojek	15807
-ォザ	lojik	15809
+ォジ	lojik	15809
 ォゾ	lojok	15806
 ォズ	lojuk	15808
 ォジャ	lojvk	15766
@@ -8586,7 +8585,7 @@ encoder:
 ゥザ	lkjak	16066
 ゥジュ	lkjck	16021
 ゥゼ	lkjek	16063
-ゥザ	lkjik	16065
+ゥジ	lkjik	16065
 ゥゾ	lkjok	16062
 ゥズ	lkjuk	16064
 ゥジャ	lkjvk	16022
@@ -8715,7 +8714,7 @@ encoder:
 ャザ	lvjak	15554
 ャジュ	lvjck	15509
 ャゼ	lvjek	15551
-ャザ	lvjik	15553
+ャジ	lvjik	15553
 ャゾ	lvjok	15550
 ャズ	lvjuk	15552
 ャジャ	lvjvk	15510
@@ -8844,7 +8843,7 @@ encoder:
 ョザ	lxjak	15298
 ョジュ	lxjck	15253
 ョゼ	lxjek	15295
-ョザ	lxjik	15297
+ョジ	lxjik	15297
 ョゾ	lxjok	15294
 ョズ	lxjuk	15296
 ョジャ	lxjvk	15254
@@ -8973,7 +8972,7 @@ encoder:
 マザ	majak	16324
 マジュ	majck	16279
 マゼ	majek	16321
-マザ	majik	16323
+マジ	majik	16323
 マゾ	majok	16320
 マズ	majuk	16322
 マジャ	majvk	16280
@@ -9102,7 +9101,7 @@ encoder:
 ミュザ	mcjak	15556
 ミュジュ	mcjck	15511
 ミュゼ	mcjek	15553
-ミュザ	mcjik	15555
+ミュジ	mcjik	15555
 ミュゾ	mcjok	15552
 ミュズ	mcjuk	15554
 ミュジャ	mcjvk	15512
@@ -9231,7 +9230,7 @@ encoder:
 メザ	mejak	15940
 メジュ	mejck	15895
 メゼ	mejek	15937
-メザ	mejik	15939
+メジ	mejik	15939
 メゾ	mejok	15936
 メズ	mejuk	15938
 メジャ	mejvk	15896
@@ -9360,7 +9359,7 @@ encoder:
 ミザ	mijak	16196
 ミジュ	mijck	16151
 ミゼ	mijek	16193
-ミザ	mijik	16195
+ミジ	mijik	16195
 ミゾ	mijok	16192
 ミズ	mijuk	16194
 ミジャ	mijvk	16152
@@ -9489,7 +9488,7 @@ encoder:
 モザ	mojak	15812
 モジュ	mojck	15767
 モゼ	mojek	15809
-モザ	mojik	15811
+モジ	mojik	15811
 モゾ	mojok	15808
 モズ	mojuk	15810
 モジャ	mojvk	15768
@@ -9618,7 +9617,7 @@ encoder:
 ムザ	mujak	16068
 ムジュ	mujck	16023
 ムゼ	mujek	16065
-ムザ	mujik	16067
+ムジ	mujik	16067
 ムゾ	mujok	16064
 ムズ	mujuk	16066
 ムジャ	mujvk	16024
@@ -9747,7 +9746,7 @@ encoder:
 ミャザ	mvjak	15684
 ミャジュ	mvjck	15639
 ミャゼ	mvjek	15681
-ミャザ	mvjik	15683
+ミャジ	mvjik	15683
 ミャゾ	mvjok	15680
 ミャズ	mvjuk	15682
 ミャジャ	mvjvk	15640
@@ -9876,7 +9875,7 @@ encoder:
 ミョザ	mxjak	15428
 ミョジュ	mxjck	15383
 ミョゼ	mxjek	15425
-ミョザ	mxjik	15427
+ミョジ	mxjik	15427
 ミョゾ	mxjok	15424
 ミョズ	mxjuk	15426
 ミョジャ	mxjvk	15384
@@ -10005,7 +10004,7 @@ encoder:
 ナザ	najak	16323
 ナジュ	najck	16278
 ナゼ	najek	16320
-ナザ	najik	16322
+ナジ	najik	16322
 ナゾ	najok	16319
 ナズ	najuk	16321
 ナジャ	najvk	16279
@@ -10134,7 +10133,7 @@ encoder:
 ニュザ	ncjak	15427
 ニュジュ	ncjck	15382
 ニュゼ	ncjek	15424
-ニュザ	ncjik	15426
+ニュジ	ncjik	15426
 ニュゾ	ncjok	15423
 ニュズ	ncjuk	15425
 ニュジャ	ncjvk	15383
@@ -10263,7 +10262,7 @@ encoder:
 ネザ	nejak	15939
 ネジュ	nejck	15894
 ネゼ	nejek	15936
-ネザ	nejik	15938
+ネジ	nejik	15938
 ネゾ	nejok	15935
 ネズ	nejuk	15937
 ネジャ	nejvk	15895
@@ -10392,7 +10391,7 @@ encoder:
 ニザ	nijak	16195
 ニジュ	nijck	16150
 ニゼ	nijek	16192
-ニザ	nijik	16194
+ニジ	nijik	16194
 ニゾ	nijok	16191
 ニズ	nijuk	16193
 ニジャ	nijvk	16151
@@ -10521,7 +10520,7 @@ encoder:
 ンザ	nnjak	15683
 ンジュ	nnjck	15638
 ンゼ	nnjek	15680
-ンザ	nnjik	15682
+ンジ	nnjik	15682
 ンゾ	nnjok	15679
 ンズ	nnjuk	15681
 ンジャ	nnjvk	15639
@@ -10650,7 +10649,7 @@ encoder:
 ノザ	nojak	15811
 ノジュ	nojck	15766
 ノゼ	nojek	15808
-ノザ	nojik	15810
+ノジ	nojik	15810
 ノゾ	nojok	15807
 ノズ	nojuk	15809
 ノジャ	nojvk	15767
@@ -10779,7 +10778,7 @@ encoder:
 ヌザ	nujak	16067
 ヌジュ	nujck	16022
 ヌゼ	nujek	16064
-ヌザ	nujik	16066
+ヌジ	nujik	16066
 ヌゾ	nujok	16063
 ヌズ	nujuk	16065
 ヌジャ	nujvk	16023
@@ -10908,7 +10907,7 @@ encoder:
 ニャザ	nvjak	15555
 ニャジュ	nvjck	15510
 ニャゼ	nvjek	15552
-ニャザ	nvjik	15554
+ニャジ	nvjik	15554
 ニャゾ	nvjok	15551
 ニャズ	nvjuk	15553
 ニャジャ	nvjvk	15511
@@ -11037,7 +11036,7 @@ encoder:
 ニョザ	nxjak	15299
 ニョジュ	nxjck	15254
 ニョゼ	nxjek	15296
-ニョザ	nxjik	15298
+ニョジ	nxjik	15298
 ニョゾ	nxjok	15295
 ニョズ	nxjuk	15297
 ニョジャ	nxjvk	15255
@@ -11166,7 +11165,7 @@ encoder:
 オザ	oojak	16331
 オジュ	oojck	16286
 オゼ	oojek	16328
-オザ	oojik	16330
+オジ	oojik	16330
 オゾ	oojok	16327
 オズ	oojuk	16329
 オジャ	oojvk	16287
@@ -11295,7 +11294,7 @@ encoder:
 パザ	pajak	16324
 パジュ	pajck	16279
 パゼ	pajek	16321
-パザ	pajik	16323
+パジ	pajik	16323
 パゾ	pajok	16320
 パズ	pajuk	16322
 パジャ	pajvk	16280
@@ -11424,7 +11423,7 @@ encoder:
 ピュザ	pcjak	15556
 ピュジュ	pcjck	15511
 ピュゼ	pcjek	15553
-ピュザ	pcjik	15555
+ピュジ	pcjik	15555
 ピュゾ	pcjok	15552
 ピュズ	pcjuk	15554
 ピュジャ	pcjvk	15512
@@ -11553,7 +11552,7 @@ encoder:
 ペザ	pejak	15940
 ペジュ	pejck	15895
 ペゼ	pejek	15937
-ペザ	pejik	15939
+ペジ	pejik	15939
 ペゾ	pejok	15936
 ペズ	pejuk	15938
 ペジャ	pejvk	15896
@@ -11682,7 +11681,7 @@ encoder:
 ピザ	pijak	16196
 ピジュ	pijck	16151
 ピゼ	pijek	16193
-ピザ	pijik	16195
+ピジ	pijik	16195
 ピゾ	pijok	16192
 ピズ	pijuk	16194
 ピジャ	pijvk	16152
@@ -11811,7 +11810,7 @@ encoder:
 ポザ	pojak	15812
 ポジュ	pojck	15767
 ポゼ	pojek	15809
-ポザ	pojik	15811
+ポジ	pojik	15811
 ポゾ	pojok	15808
 ポズ	pojuk	15810
 ポジャ	pojvk	15768
@@ -11940,7 +11939,7 @@ encoder:
 プザ	pujak	16068
 プジュ	pujck	16023
 プゼ	pujek	16065
-プザ	pujik	16067
+プジ	pujik	16067
 プゾ	pujok	16064
 プズ	pujuk	16066
 プジャ	pujvk	16024
@@ -12069,7 +12068,7 @@ encoder:
 ピャザ	pvjak	15684
 ピャジュ	pvjck	15639
 ピャゼ	pvjek	15681
-ピャザ	pvjik	15683
+ピャジ	pvjik	15683
 ピャゾ	pvjok	15680
 ピャズ	pvjuk	15682
 ピャジャ	pvjvk	15640
@@ -12198,7 +12197,7 @@ encoder:
 ピョザ	pxjak	15428
 ピョジュ	pxjck	15383
 ピョゼ	pxjek	15425
-ピョザ	pxjik	15427
+ピョジ	pxjik	15427
 ピョゾ	pxjok	15424
 ピョズ	pxjuk	15426
 ピョジャ	pxjvk	15384
@@ -12327,7 +12326,7 @@ encoder:
 ラザ	rajak	16324
 ラジュ	rajck	16279
 ラゼ	rajek	16321
-ラザ	rajik	16323
+ラジ	rajik	16323
 ラゾ	rajok	16320
 ラズ	rajuk	16322
 ラジャ	rajvk	16280
@@ -12456,7 +12455,7 @@ encoder:
 リュザ	rcjak	15556
 リュジュ	rcjck	15511
 リュゼ	rcjek	15553
-リュザ	rcjik	15555
+リュジ	rcjik	15555
 リュゾ	rcjok	15552
 リュズ	rcjuk	15554
 リュジャ	rcjvk	15512
@@ -12585,7 +12584,7 @@ encoder:
 レザ	rejak	15940
 レジュ	rejck	15895
 レゼ	rejek	15937
-レザ	rejik	15939
+レジ	rejik	15939
 レゾ	rejok	15936
 レズ	rejuk	15938
 レジャ	rejvk	15896
@@ -12714,7 +12713,7 @@ encoder:
 リザ	rijak	16196
 リジュ	rijck	16151
 リゼ	rijek	16193
-リザ	rijik	16195
+リジ	rijik	16195
 リゾ	rijok	16192
 リズ	rijuk	16194
 リジャ	rijvk	16152
@@ -12843,7 +12842,7 @@ encoder:
 ロザ	rojak	15812
 ロジュ	rojck	15767
 ロゼ	rojek	15809
-ロザ	rojik	15811
+ロジ	rojik	15811
 ロゾ	rojok	15808
 ロズ	rojuk	15810
 ロジャ	rojvk	15768
@@ -12972,7 +12971,7 @@ encoder:
 ルザ	rujak	16068
 ルジュ	rujck	16023
 ルゼ	rujek	16065
-ルザ	rujik	16067
+ルジ	rujik	16067
 ルゾ	rujok	16064
 ルズ	rujuk	16066
 ルジャ	rujvk	16024
@@ -13101,7 +13100,7 @@ encoder:
 リャザ	rvjak	15684
 リャジュ	rvjck	15639
 リャゼ	rvjek	15681
-リャザ	rvjik	15683
+リャジ	rvjik	15683
 リャゾ	rvjok	15680
 リャズ	rvjuk	15682
 リャジャ	rvjvk	15640
@@ -13230,7 +13229,7 @@ encoder:
 リョザ	rxjak	15428
 リョジュ	rxjck	15383
 リョゼ	rxjek	15425
-リョザ	rxjik	15427
+リョジ	rxjik	15427
 リョゾ	rxjok	15424
 リョズ	rxjuk	15426
 リョジャ	rxjvk	15384
@@ -13359,7 +13358,7 @@ encoder:
 サザ	sajak	16324
 サジュ	sajck	16279
 サゼ	sajek	16321
-サザ	sajik	16323
+サジ	sajik	16323
 サゾ	sajok	16320
 サズ	sajuk	16322
 サジャ	sajvk	16280
@@ -13488,7 +13487,7 @@ encoder:
 シュザ	scjak	15556
 シュジュ	scjck	15511
 シュゼ	scjek	15553
-シュザ	scjik	15555
+シュジ	scjik	15555
 シュゾ	scjok	15552
 シュズ	scjuk	15554
 シュジャ	scjvk	15512
@@ -13617,7 +13616,7 @@ encoder:
 セザ	sejak	15940
 セジュ	sejck	15895
 セゼ	sejek	15937
-セザ	sejik	15939
+セジ	sejik	15939
 セゾ	sejok	15936
 セズ	sejuk	15938
 セジャ	sejvk	15896
@@ -13746,7 +13745,7 @@ encoder:
 シザ	sijak	16196
 シジュ	sijck	16151
 シゼ	sijek	16193
-シザ	sijik	16195
+シジ	sijik	16195
 シゾ	sijok	16192
 シズ	sijuk	16194
 シジャ	sijvk	16152
@@ -13875,7 +13874,7 @@ encoder:
 ソザ	sojak	15812
 ソジュ	sojck	15767
 ソゼ	sojek	15809
-ソザ	sojik	15811
+ソジ	sojik	15811
 ソゾ	sojok	15808
 ソズ	sojuk	15810
 ソジャ	sojvk	15768
@@ -14004,7 +14003,7 @@ encoder:
 スザ	sujak	16068
 スジュ	sujck	16023
 スゼ	sujek	16065
-スザ	sujik	16067
+スジ	sujik	16067
 スゾ	sujok	16064
 スズ	sujuk	16066
 スジャ	sujvk	16024
@@ -14133,7 +14132,7 @@ encoder:
 シャザ	svjak	15684
 シャジュ	svjck	15639
 シャゼ	svjek	15681
-シャザ	svjik	15683
+シャジ	svjik	15683
 シャゾ	svjok	15680
 シャズ	svjuk	15682
 シャジャ	svjvk	15640
@@ -14262,7 +14261,7 @@ encoder:
 ショザ	sxjak	15428
 ショジュ	sxjck	15383
 ショゼ	sxjek	15425
-ショザ	sxjik	15427
+ショジ	sxjik	15427
 ショゾ	sxjok	15424
 ショズ	sxjuk	15426
 ショジャ	sxjvk	15384
@@ -14391,7 +14390,7 @@ encoder:
 タザ	tajak	16328
 タジュ	tajck	16283
 タゼ	tajek	16325
-タザ	tajik	16327
+タジ	tajik	16327
 タゾ	tajok	16324
 タズ	tajuk	16326
 タジャ	tajvk	16284
@@ -14520,7 +14519,7 @@ encoder:
 テザ	tejak	16072
 テジュ	tejck	16027
 テゼ	tejek	16069
-テザ	tejik	16071
+テジ	tejik	16071
 テゾ	tejok	16068
 テズ	tejuk	16070
 テジャ	tejvk	16028
@@ -14649,7 +14648,7 @@ encoder:
 トザ	tojak	15944
 トジュ	tojck	15899
 トゼ	tojek	15941
-トザ	tojik	15943
+トジ	tojik	15943
 トゾ	tojok	15940
 トズ	tojuk	15942
 トジャ	tojvk	15900
@@ -14778,7 +14777,7 @@ encoder:
 ツザ	tujak	16200
 ツジュ	tujck	16155
 ツゼ	tujek	16197
-ツザ	tujik	16199
+ツジ	tujik	16199
 ツゾ	tujok	16196
 ツズ	tujuk	16198
 ツジャ	tujvk	16156
@@ -14907,7 +14906,7 @@ encoder:
 ウザ	uujak	16331
 ウジュ	uujck	16286
 ウゼ	uujek	16328
-ウザ	uujik	16330
+ウジ	uujik	16330
 ウゾ	uujok	16327
 ウズ	uujuk	16329
 ウジャ	uujvk	16287
@@ -15036,7 +15035,7 @@ encoder:
 ヴァザ	vajak	16199
 ヴァジュ	vajck	16154
 ヴァゼ	vajek	16196
-ヴァザ	vajik	16198
+ヴァジ	vajik	16198
 ヴァゾ	vajok	16195
 ヴァズ	vajuk	16197
 ヴァジャ	vajvk	16155
@@ -15165,7 +15164,7 @@ encoder:
 ヴェザ	vejak	15943
 ヴェジュ	vejck	15898
 ヴェゼ	vejek	15940
-ヴェザ	vejik	15942
+ヴェジ	vejik	15942
 ヴェゾ	vejok	15939
 ヴェズ	vejuk	15941
 ヴェジャ	vejvk	15899
@@ -15294,7 +15293,7 @@ encoder:
 ヴィザ	vijak	16071
 ヴィジュ	vijck	16026
 ヴィゼ	vijek	16068
-ヴィザ	vijik	16070
+ヴィジ	vijik	16070
 ヴィゾ	vijok	16067
 ヴィズ	vijuk	16069
 ヴィジャ	vijvk	16027
@@ -15423,7 +15422,7 @@ encoder:
 ヴォザ	vojak	15815
 ヴォジュ	vojck	15770
 ヴォゼ	vojek	15812
-ヴォザ	vojik	15814
+ヴォジ	vojik	15814
 ヴォゾ	vojok	15811
 ヴォズ	vojuk	15813
 ヴォジャ	vojvk	15771
@@ -15552,7 +15551,7 @@ encoder:
 ヴザ	vujak	16327
 ヴジュ	vujck	16282
 ヴゼ	vujek	16324
-ヴザ	vujik	16326
+ヴジ	vujik	16326
 ヴゾ	vujok	16323
 ヴズ	vujuk	16325
 ヴジャ	vujvk	16283
@@ -15681,7 +15680,7 @@ encoder:
 ワザ	wajak	16328
 ワジュ	wajck	16283
 ワゼ	wajek	16325
-ワザ	wajik	16327
+ワジ	wajik	16327
 ワゾ	wajok	16324
 ワズ	wajuk	16326
 ワジャ	wajvk	16284
@@ -15810,7 +15809,7 @@ encoder:
 ウェザ	wejak	15944
 ウェジュ	wejck	15899
 ウェゼ	wejek	15941
-ウェザ	wejik	15943
+ウェジ	wejik	15943
 ウェゾ	wejok	15940
 ウェズ	wejuk	15942
 ウェジャ	wejvk	15900
@@ -15939,7 +15938,7 @@ encoder:
 ウィザ	wijak	16072
 ウィジュ	wijck	16027
 ウィゼ	wijek	16069
-ウィザ	wijik	16071
+ウィジ	wijik	16071
 ウィゾ	wijok	16068
 ウィズ	wijuk	16070
 ウィジャ	wijvk	16028
@@ -16068,7 +16067,7 @@ encoder:
 ヲザ	wojak	16200
 ヲジュ	wojck	16155
 ヲゼ	wojek	16197
-ヲザ	wojik	16199
+ヲジ	wojik	16199
 ヲゾ	wojok	16196
 ヲズ	wojuk	16198
 ヲジャ	wojvk	16156
@@ -16197,7 +16196,7 @@ encoder:
 ユザ	ycjak	16201
 ユジュ	ycjck	16156
 ユゼ	ycjek	16198
-ユザ	ycjik	16200
+ユジ	ycjik	16200
 ユゾ	ycjok	16197
 ユズ	ycjuk	16199
 ユジャ	ycjvk	16157
@@ -16326,7 +16325,7 @@ encoder:
 ヤザ	yvjak	16329
 ヤジュ	yvjck	16284
 ヤゼ	yvjek	16326
-ヤザ	yvjik	16328
+ヤジ	yvjik	16328
 ヤゾ	yvjok	16325
 ヤズ	yvjuk	16327
 ヤジャ	yvjvk	16285
@@ -16455,7 +16454,7 @@ encoder:
 ヨザ	yxjak	16073
 ヨジュ	yxjck	16028
 ヨゼ	yxjek	16070
-ヨザ	yxjik	16072
+ヨジ	yxjik	16072
 ヨゾ	yxjok	16069
 ヨズ	yxjuk	16071
 ヨジャ	yxjvk	16029

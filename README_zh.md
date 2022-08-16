@@ -1,6 +1,8 @@
-# Rime 河童日本語五筆型入力方法
+# Rime 河童日語五筆型輸入方案
 
-[English](https://github.com/momijineko/Rime-KappaJP/blob/master/README.md) | 中文
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/momijineko/Rime-KappaJP) ![GitHub](https://img.shields.io/github/license/momijineko/Rime-KappaJP)
+
+[English](https://github.com/momijineko/Rime-KappaJP/blob/master/README.md) | 中文 | | [日本語](https://github.com/momijineko/Rime-KappaJP/blob/master/README_ja.md)
 
 一個基於五筆86的日語輸入方案。
 
@@ -30,4 +32,4 @@ patch:
     #- {accept: period, send: Page_Down, when: has_menu}
 ```
 
-歡迎各位大佬共同對本方案的詞庫進行維護和提PR。關於對新詞的收錄，本詞庫將不予收錄死語<sup>[廃語 - Wikipedia](https://ja.wikipedia.org/wiki/廃語)</sup>以及未來可能會變成死語的詞（比如部分NET用語）。
+歡迎各位大佬共同對本方案的詞庫進行維護和提PR。
