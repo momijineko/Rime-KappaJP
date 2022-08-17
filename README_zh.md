@@ -2,7 +2,7 @@
 
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/momijineko/Rime-KappaJP) ![GitHub](https://img.shields.io/github/license/momijineko/Rime-KappaJP)
 
-[English](https://github.com/momijineko/Rime-KappaJP/blob/master/README.md) | 中文 | | [日本語](https://github.com/momijineko/Rime-KappaJP/blob/master/README_ja.md)
+[English](https://github.com/momijineko/Rime-KappaJP/blob/master/README.md) | 中文 | [日本語](https://github.com/momijineko/Rime-KappaJP/blob/master/README_ja.md)
 
 一個基於五筆86的日語輸入方案。
 
