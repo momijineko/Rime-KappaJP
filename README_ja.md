@@ -22,7 +22,7 @@ THIS README NEEDS TO BE TRANSLATED INTO JAPANESE.
 
 ## 使用方法と注意事項
 
-使用前請先閱讀 [Wiki](https://github.com/momijineko/Rime-KappaJP/wiki) 頁面。
+ご使用前に [Wiki](https://github.com/momijineko/Rime-KappaJP/wiki)（現在は中国語版のみ） をお読みください
 
 將本倉庫根目錄下的文檔直接複製入 RIME 用戶文件夾部署即可。
 
