@@ -12,7 +12,7 @@ THIS README FILE NEEDS TO BE TRANSLATED INTO JAPANESE.
 
 五筆86に基づく日本語入力スキームです。
 
-這是一種通過 `漢字直接輸入`<sup>[漢字直接入力 - Wikipedia](https://ja.wikipedia.org/wiki/漢字直接入力)</sup> 方式進行日語輸入的方案。
+這是一種通過 `漢字直接入力`<sup>[wiki](https://ja.wikipedia.org/wiki/漢字直接入力)</sup> 方式進行日語輸入的方案。
 
 ## 声明
 
