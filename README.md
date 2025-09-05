@@ -4,6 +4,10 @@
 
 English | [中文](https://github.com/momijineko/Rime-KappaJP/blob/master/README_zh.md) | [日本語](https://github.com/momijineko/Rime-KappaJP/blob/master/README_ja.md)
 
+> 當前版本不適用，需進行改造
+>
+> The current version is not applicable and requires modification.
+
 A Japanese input scheme based on Wubi86.
 
 It’s a input scheme by `Kanji Chokusetsu Nyuryoku`<sup>[漢字直接入力 - Wikipedia](https://ja.wikipedia.org/wiki/漢字直接入力)</sup> to input Japanese.
